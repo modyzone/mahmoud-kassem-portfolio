@@ -147,7 +147,7 @@ opacity: 0.8;
 	padding: 20px;
 }
 
-.page-header__item:{
+.page-header__item{
 	flex: 0 1 200px;
 }
 
@@ -208,27 +208,6 @@ opacity: 0.8;
 		font-size: 22px;
 	}
 }
-
-button,
-.button1,
-.button2,
-.button3,
-.my-input {
-
-}
-
-button,
-.button {
-
-}
-
- button:hover,
- button: focus,
- .button:hover,
- .button:focus {
-
- }
-
 .button, button {
   /* overwrites browser defaults and resets the border */
   border: none;
@@ -322,4 +301,4 @@ button:focus,
 /*
 /*.header_title{
 	/* No spacing to top and bottom and auto-spacing to let and righ, which centers the container horizontally*/
-	/*margin:0 auto;
+	/*margin:0 auto;*/
