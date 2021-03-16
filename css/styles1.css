@@ -147,7 +147,11 @@ opacity: 0.8;
 	padding: 20px;
 }
 
+<<<<<<< Updated upstream
 .page-header__item{
+=======
+.page-header__item: {
+>>>>>>> Stashed changes
 	flex: 0 1 200px;
 }
 
@@ -177,13 +181,13 @@ opacity: 0.8;
 }
 
 @media all and (max-width: 500px) {
-	.grid{
+	.grid {
 		grid-template-columns: 1fr;
 	}
 }
 
-@media all and (min-width: 500px) and (max-width: 750px){
-	.grid {
+@media all and (min-width: 500px) and (max-width: 750px) {
+	 .grid {
 		grid-template-columns: 1fr 1fr;
       }
   }
@@ -208,6 +212,17 @@ opacity: 0.8;
 		font-size: 22px;
 	}
 }
+<<<<<<< Updated upstream
+=======
+
+ button:hover,
+ button: focus,
+ .button:hover,
+ .button:focus {
+
+ }
+
+>>>>>>> Stashed changes
 .button, button {
   /* overwrites browser defaults and resets the border */
   border: none;
@@ -301,4 +316,8 @@ button:focus,
 /*
 /*.header_title{
 	/* No spacing to top and bottom and auto-spacing to let and righ, which centers the container horizontally*/
+<<<<<<< Updated upstream
 	/*margin:0 auto;*/
+=======
+	/*margin:0 auto*/
+>>>>>>> Stashed changes

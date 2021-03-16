@@ -1,0 +1,14 @@
+{
+  "rules": {
+    "color-no-invalid-hex": true;
+
+    "indentation": [
+      2,
+      {
+        "except": ["value"],
+        "severity": "warning"
+      }
+    ]
+  }
+}
+  
