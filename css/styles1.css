@@ -235,6 +235,8 @@ button:focus,
   /* reduces the opacity of the button to 80% */
   opacity: 0.8;
 }
+/* Work Icons */
+
 
 @keyframes color-change {
   0% {
