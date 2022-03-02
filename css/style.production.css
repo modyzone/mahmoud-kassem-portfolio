@@ -241,8 +241,8 @@ opacity: 0.8;
   /* takes the font from the outer container */
   font-family: inherit;
   /* styles the button */
-  background-color: #357b70;
-  color: rgba(255, 255, 255, 0.692);
+  background-color: #cfc31cec;
+  color: rgba(255, 255, 255, 0.918);
   text-decoration: none;
   padding: 10px;
   border-radius: 3px;
