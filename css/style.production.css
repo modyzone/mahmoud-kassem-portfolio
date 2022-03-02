@@ -339,7 +339,9 @@ button:focus,
 	}
 }
 
-
+body {
+  background-color: rgb(255, 230, 0);
+}
 
 @keyframes cloud-move-reverse {
 	from {
