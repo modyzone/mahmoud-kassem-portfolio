@@ -116,10 +116,10 @@ opacity: 0.8;
 
 .profile__portrait {
 	float: left;
-	width: 150px;
+	width: 300px;
 	margin-right: 40px;
 	height: auto;
-	border-radius: 50%;
+	border-radius: 90%;
 }
 
 .page-footer {
