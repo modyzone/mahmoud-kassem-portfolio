@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@500&display=swap");
+
+.wr {
+  padding: 25px;
+}
+
+.page-header {
+  padding: 20px 0 !important;
+}
+
+.logo p {
+  margin: 0;
+  font-size: 46px;
+  /* text-shadow: 2px 2px 1px #000000; */
+  color: #222222;
+  font-weight: 900;
+  font-family: "Ms Madi", cursive;
+}
+
+nav.main-navigation ul li a {
+  text-decoration: none !important;
+  color: #222222;
+  font-family: "Cairo", sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+nav.main-navigation ul li a.navigation-list__item--active {
+  border-bottom: 1pt solid #10aa50;
+}
+
+.profile {
+  max-width: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logos {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.web,
+.mecha {
+  position: relative !important;
+  right: auto !important;
+}
+
+.skils {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 25px 0;
+  border-top: 1pt solid #222222;
+  border-bottom: 1pt solid #222222;
+  padding: 10px;
+}
+
+.skils img {
+  height: 50px;
+}
+
+.aboutContent {
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.aboutContent .left {
+  width: 50%;
+}
+
+.aboutContent .right {
+  width: 50%;
+}
+
+.aboutContent img {
+  width: 100%;
+}
+
+table {
+  width: 100%;
+  margin-top: 25px;
+}
+
+table thead tr {
+  background-color: #222222;
+  color: white;
+}
+
+table tbody tr {
+  background-color: white;
+  color: #222222;
+}
+table tbody tr th {
+  padding: 10px;
+}
+
+table tbody tr td,
+table tbody tr th {
+  padding: 7px;
+}
