@@ -17,7 +17,11 @@
   font-weight: 900;
   font-family: "Ms Madi", cursive;
 }
-
+nav.main-navigation ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
 nav.main-navigation ul li a {
   text-decoration: none !important;
   color: #222222;
@@ -27,7 +31,8 @@ nav.main-navigation ul li a {
 }
 
 nav.main-navigation ul li a.navigation-list__item--active {
-  border-bottom: 1pt solid #10aa50;
+  /* border-bottom: 1pt solid #10aa50; */
+  text-decoration: underline !important;
 }
 
 .profile {
@@ -71,14 +76,7 @@ nav.main-navigation ul li a.navigation-list__item--active {
   align-items: center;
   justify-content: center;
   width: 100%;
-}
-
-.aboutContent .left {
-  width: 50%;
-}
-
-.aboutContent .right {
-  width: 50%;
+  gap: 2rem;
 }
 
 .aboutContent img {
@@ -106,4 +104,21 @@ table tbody tr th {
 table tbody tr td,
 table tbody tr th {
   padding: 7px;
+}
+
+
+@media screen and (max-width: 600px) {
+  nav.main-navigation ul {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+ .profile {
+   flex-direction: column;
+ }
+ .profile__portrait {
+   margin: 0;
+ }
+ .aboutContent {
+   flex-direction: column;
+ }
 }

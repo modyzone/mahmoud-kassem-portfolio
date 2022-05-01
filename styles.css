@@ -454,11 +454,11 @@ button:focus {
 }
 
 .profile__portrait {
-  float: left;
   width: 300px;
   margin-right: 40px;
   height: auto;
   border-radius: 90%;
+  max-width: 100%;
 }
 
 .page-footer {
